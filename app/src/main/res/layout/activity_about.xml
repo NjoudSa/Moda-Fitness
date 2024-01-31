@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/project1"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".AboutActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="app name:"
+        android:textColor="#E91E63"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_marginTop="7dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MODA FITNESS"
+        android:textColor="#E91E63"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_marginTop="70dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="introduction"
+        android:textColor="#E91E63"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_marginTop="7dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The “‏MODA FITNESS” program aims to help you achieve your personal goals and self-development. The program provides advice and guidance on exercise, nutrition, and improving your lifestyle. It can also provide customized training schedules and track your progress towards your health and fitness goals."
+        android:textColor="#E91E63"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_marginTop="70dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="team names:"
+        android:textColor="#E91E63"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_marginTop="7dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Njoud Ghazwani \n Areej Al Mutairi"
+        android:textAlignment="center"
+        android:textColor="#E91E63"
+        android:textSize="20sp" />
+
+</LinearLayout>
